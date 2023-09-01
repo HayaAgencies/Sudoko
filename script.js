@@ -1,5 +1,5 @@
 function StartPlaying(){
-    window.location.replace("/LevelA.html")
+    window.location.replace("/Sudoko/LevelA.html")
 }
 function Checklevela()
 {
@@ -14,7 +14,7 @@ function Checklevela()
             if(row3 == "8")
             {
                 alert("You Passed")
-                window.location.replace("/LevelB.html")
+                window.location.replace("/Sudoko/LevelB.html")
             }
             else
             {
@@ -44,7 +44,7 @@ function Checklevelb()
             if(row3 == "4")
             {
                 alert("You Passed")
-                window.location.replace("/You_Won.html")
+                window.location.replace("/Sudoko/You_Won.html")
             }
             else
             {
@@ -63,5 +63,5 @@ function Checklevelb()
 }
 function Home()
 {
-    window.location.replace("/index.html")
+    window.location.replace("/Sudoko/index.html")
 }
